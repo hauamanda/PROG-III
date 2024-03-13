@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  "Quicksand", sans-serif;
+}
+
+input[type='text']{
+    background-color: rgb(255, 254, 254);
+}
+
+input[type='submit']{
+    background-color: rgb(255, 255, 255);
+}
+
+input[type='submit']:hover{
+    background-color: rgb(107, 93, 93);
+}
+
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+label{
+    margin: 20px;
+}

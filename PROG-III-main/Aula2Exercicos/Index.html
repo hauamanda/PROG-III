@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+
+    <div class="cadastro">
+        <form action="cadastro.php" method="get">
+            <label for="Titulo">Titulo</label> 
+            <input id="Titulo" type="text" name="titulo" placeholder="Insira o titulo">
+            <input type="number" min="0" max="10"> 
+    
+            <label for="editora">Editora:</label>
+            <select name="editora" id="editora">
+                <option value="a">Editora A</option>
+                <option value="b">Editora B</option>
+            </select>
+    
+            <fieldset>
+                <legend>Genero do Livro</legend>
+                <label for="humor">Humor</label>
+                <input type="checkbox" name="humor" value="humor" id="humor">
+    
+                <label for="Drama">Drama</label>
+                <input type="checkbox" name="Drama" value="Drama" id="Drama">
+            </fieldset>
+    
+            <fieldset>
+                <legend>Lançado</legend>
+                <label for="sim">Sim</label>
+                <input type="radio" name="lançado" value="sim" id="sim">
+    
+                <label for="nao">Não</label>
+                <input type="radio" name="lançado" value="nao" id="nao">
+            </fieldset>
+    
+    
+            <input type="submit" name="enviar" id="enviar">
+    
+    
+        </form>
+    </div>
+   
+</body>
+</html>
