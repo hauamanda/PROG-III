@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QSE?</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <header>
+     <div class="header-content">
+        <h1 class="logo">QUEM SOU EU?</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Filme.html">Filmes</a></li>
+                <li><a href="Livros.html">Livros</a></li>
+                <li><a href="Musica.html">Música</a></li>
+            </ul>
+        </nav>
+     </div>
+    </header>
+    
+</body>
+
+ <main>
+        <p class="dados">   Me chamo Amanda, tenho 17 anos e gosto muito de conhecer novas cafeterias e bons 
+            amigos. Moro em Nova Petrópolis, mesmo sendo uma cidade de pessoas mais idosas (KKKKKK) gosto do 
+            seu charme. Nunca imaginei que estaria aqui no IF hoje, fazendo TI! 
+            Tem uma historia engraçada por trás disso. O ano era 2014, minha mãe queria muito que eu começasse
+            a fazer algum esporte, era aquela época da preguiça, só queria ficar olhando TV e comedo salgadinho.
+            Nisso uma das minhas amigas da época, começou ir no projeto de volei de Nova, e ela me convidou pra eu 
+            começar a fazer tambem. Ao longo do tempo fui me apaixonando cada vez mais pelo esporte, treinava quase todos os dias, 
+            fiz amizades incriveis e tudo foi muito bom.
+            Em 2021, surgiu a oportunidade de vir estudar no IF, pensei "porque nao?!", mas tinha um unico 
+            problema, ou eu saia do volei e fazia o tecnico que mais me chamou atençao (Meio ambiente na epoca)
+            ou eu escolhia TI e continuava no volei. 
+            Minha escolha ja sabemos (KKKKKK), porem, no final de 2022, quando ja tinha ingressado aqui no IF, 
+            ainda estava treinando e aconteceu que eu rompi um ligamento do meu tornozelo. Como vi que aqui na escola tudo era muito 
+            dificil, acabei desistindo do volei, porque nao iria conseguir consilhar tudo.
+            Enfim, hoje ainda estou aprendendo a gostar do tecnico (KKKKK), fiz amizades novas, conheci meu namorado
+            incrivel aqui e gosto muito da escola.
+            Os meus hobbies sao: 
+            -ler (principalmente  livros de romance agua com açucar )
+            - amo maratonar uma boa serie policial 
+            - gosto muito de correr
+            - fazer doces (amo!)
+        
+             </p>
+
+
+    </main>
+    
+    <script>
+        function typeWriter(elemento) {
+          const textoArray = elemento.innerHTML.split('');
+          elemento.innerHTML = '';
+          textoArray.forEach((letra, i) => {
+            setTimeout(() => elemento.innerHTML += letra, 90 * i);
+          });
+        }
+      
+        const titulo = document.querySelector('p');
+        typeWriter(titulo);
+      </script>
+
+</body>
+</html>
